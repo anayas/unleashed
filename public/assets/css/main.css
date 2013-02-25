@@ -1,0 +1,1188 @@
+/*******************RESET**************/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*******************END CSS RESET**************/
+
+/******************* SignIn PAGE CSS STARTS HERE ******/
+
+/*
+@font-face {
+	font-family: ("GoodDog Plain");
+	src: url('../fonts/'GOODDP__.ttf');
+		
+}
+*/
+body{
+	background-color: #000;
+}
+article {
+	background-color: #058090;
+	width: 700px;
+	/* width: 100%; */
+	margin: 0 auto;
+	
+}
+
+#logo{
+	margin: 10px 0 0 20px;
+	padding: 30px 0 0 30px;
+	/* width: 226px; */
+	/* width: 10%; */
+	height: 123px;
+	float: left;
+	clear: left;
+}
+a:active{
+	position: relative;
+	top: 1px;
+}
+
+
+#globalNav{
+	clear: left;
+	float: left;
+	margin-left: 330px;
+	margin-bottom: 50px;
+	/* margin-top: -550px; */
+	
+	
+	
+	
+	
+}
+#globalNav li {
+	float: left;
+	margin-left: 20px;
+	font-family: "MS Reference Sans Serif", arial, helvetica;
+	
+	
+}
+#globalNav li a{
+	text-decoration: none;
+	color: #FFF;
+	
+}
+#globalNav li a:hover{
+	text-decoration: underline;
+	color: #b6df18;
+	
+	 	
+}
+
+
+ 
+/*
+
+#headerNav ul{
+	width: 380px;
+	clear: left;
+	float: left;
+	overflow: hidden;
+	
+	margin-top: -40px;
+	margin-bottom: 50px;
+	margin-left: 315px;
+	clear: left;
+	float: left;
+	overflow: hidden;
+	border: solid 1px red;
+}
+#headerNav ul li {
+	margin-right: 30px; 
+	
+clear: left;
+	float: left;
+}
+*/
+
+
+
+
+
+
+#bird{
+	margin-left: 500px;
+	margin-top: -150px;
+	/* margin-bottom: -50px; */
+	clear: left;
+	float: left;
+}
+
+#headerSaying{
+	font-family: "GoodDog Plain";
+	font-size: 36px;
+	letter-spacing: 5px;
+	width: 350px;
+	margin-left: 100px;
+	margin-top: 50px;
+	margin-bottom: -150px;
+	clear: left;
+	float: left;
+}
+h2{
+	font-family: "Tw Cen MT";
+	font-size: 16px;
+	margin-left: 135px;
+	
+}
+/*
+#loginSaying{
+	width: 340px;
+	font-weight: normal;
+	font-size: 19px;
+	margin-bottom: 3px;
+	clear: left;
+}
+form{
+	/* background-color: #6C8703; */
+	/*
+width: 350px;
+	height:200px;
+	margin-left: 135px;
+	padding-top: 15px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+*/
+
+	
+	
+	/*
+padding-left: 45px;
+	padding-right: 30px;
+	padding-top: 45px;
+	padding-bottom: 50px;
+*/
+/*
+
+}
+#homePageForm{
+	background-color: #6C8703;
+	clear: left;
+}
+#emailInput{
+	margin-left: 25px;
+	height: 40px;
+	
+}
+#passwordInput {
+	margin-left: 25px;
+	height: 40px;
+	width: 290px;
+	
+	background-color: #FFF;
+}
+#forgotPassword{
+	font-family: "MS Reference Sans Serif";
+	font-size: 12px;
+	margin-left: 382px;
+	margin-top: 5px;
+	background-color: #04A8BB;
+	width: 140px;
+	padding: 2px 0 4px 2px;
+}
+#forgotPassword a{
+	color: #000;
+}
+#noAccount{
+	font-family: "MS Reference Sans Serif";
+	font-size: 12px;
+	margin-left: 328px;
+	margin-top: 10px; 
+	margin-bottom: -130px;
+}
+#noAccount span{
+	background-color: #04A8BB;
+	padding: 1px 1px 3px 2px;
+}
+#noAccount a{
+	color: #000;
+
+}
+*/
+footer{
+	clear: both;
+	background-color: #6C8703;
+	overflow: hidden;
+}
+#person{
+	/* margin-top: 520px; */
+	/* margin-bottom: -300px; */
+	margin-left: 10px;
+	margin-top: -180px;
+	float: left;
+	clear: both;
+}
+/*
+#dog2{
+	margin-left: 100px;
+	float: left;
+	clear: both;
+	 margin-bottom: -10px; 
+	margin-top: -5px;
+}
+*/
+#lab{
+	clear: both;
+	float: left;
+	margin-left: 270px;
+	margin-right: 50px;
+	
+	margin-bottom: 80px;
+
+	/* margin-top: -20px; */
+	
+}
+#enter{
+	clear: left;
+	float: right;
+	margin-top: -210px;
+	margin-right: -213px;
+}
+#enter a{
+	text-decoration: none;
+	color: #FFF;
+}
+#enter a:hover{
+	color: #b6df18;
+}
+#footerSayingLine1 img{
+	margin-left: 25px;
+	margin-top: 50px;
+	/*
+font-family: "GoodDog Plain";
+	letter-spacing: 3px;
+*/
+	/*
+padding-left: 25px;
+	padding-top: 5px;
+*/
+	/* margin-left: 20px; */
+	/*
+line-height: 30px;
+	display: block;
+*/
+
+}
+#footerSayingLine1{
+	width: 90px;
+	margin-left: 10px;
+	margin-top: 20px;
+}
+#footerSayingLine2{
+	width: 140px;
+	margin-left: 10px;
+}
+#footerSayingLine3{
+	width: 160px;
+	margin-left: 10px;
+}
+#footerNav ul li{
+	font-family: "Tw Cen MT";
+	clear: left;
+	float: left;
+	margin-right: 70px;
+	margin-bottom: 5px;
+	
+}
+#footerNav ul li a{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+#footerNav ul{
+	clear: both;
+	overflow: hidden;
+	margin-left:405px;
+	margin-top: -80px;
+	width: 355px;
+		
+}
+
+
+#socialTitle{
+	clear: left;
+	float: left;
+	margin-left: 100px;
+	margin-top: -64px;
+	
+	
+}
+#contactTitle{
+	clear: left;
+	float: left;
+	margin-left: 204px;
+	margin-top: -64px;}
+
+
+#socialIcons{
+	clear: both;
+	margin-left:510px;
+	margin-top: -40px;
+	width: 57px;
+	
+}
+
+#footerCopy{
+	font-family: "MS Reference Sans Serif";
+	/* font-size: 8px; */
+	margin-top: 25px;
+	margin-bottom: 15px;
+	
+}
+
+
+
+#myEmail{
+	float: right;
+	margin-right: 43px;
+	margin-top: -100px;
+}
+
+#myEmail a {
+	color: #FFFFFF;
+	text-decoration: none;
+	font-size: 8px;
+}
+
+#companyName{
+	margin-left: 43px;
+	font-weight: 800;
+	font-size: 10px;
+}
+#companyName span{
+	font-weight: normal;
+	font-size: 8px;
+	margin-left: 3px;
+	
+}
+#copyright{
+	font-size: 8px;
+	float: right;
+	margin: -10px 40px 20px 0;
+}
+
+  /*  FORM */
+  
+.loginform ul {  
+	padding: 0;  
+    margin-left: 30px;  
+} 
+.loginform li {  
+    font-family: "MS Reference Sans Serif";
+    font-size: 12px;
+} 
+#userNameLabel{
+    clear: both;
+    width: 50px;
+	padding-top: 15px;
+	padding-bottom: 2px;
+}
+#userName{
+}
+#userPassword{
+	padding-top: 10px;
+} 
+    
+  /*   clearFix hack */
+  
+label {  
+    display: block;  
+    color: #fff;
+	font-family: "MS Reference Sans Serif";
+    margin-bottom: 2px;  
+}
+.cf:before, .cf:after {  
+    content: "";   
+    display: table;  
+}  
+.cf:after {  
+    clear: both;  
+}  
+.cf {  
+	*zoom: 1;  
+}  
+:focus {  
+     outline: 0;  
+}  
+  /*   targeting inputs */
+  
+.loginform input:not([type=submit]) {  
+     width: 290px;
+     height: 40px;
+     padding: 5px;  
+     margin-right: 10px;
+     margin-left: 0px;  
+     border: 1px solid rgba(0, 0, 0, 0.3);  
+     border-radius: 3px;  
+     box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.1),   
+                  0px 1px 0px 0px rgba(250, 250, 250, 0.5) ; 
+}  
+   /*  submitBtn style */
+   
+.loginform input[type=submit] {  
+     margin-right: 60px;
+     margin-top: -10px;
+     background-color: transparent;
+     width: 20px;
+     height: 20px;
+     float: right;
+     background: #00d6eb; /* Old browsers */ 
+      
+}
+/*
+.keepLogin{
+	clear: both;
+	margin-top: -50px;
+	border: solid 1px red;
+	width: 100px;
+	height: 25px;
+	color: #000;
+}
+#checkbox{
+	border: solid 1px red;
+ 
+}
+*/
+.loginform input[type=password]{
+	width: 150px;
+	float: left;
+	
+}
+#imageTag{
+	 margin-left: 190px;
+	 margin-top: -48px;
+	 border: none;
+	 background: transparent;
+	 color: #FFF;
+}
+
+/******************* SignUp Form PAGE CSS STARTS HERE ****************************/
+
+#signUpFormTitle{
+	font-family: "GoodDog Plain";
+	font-size: 48px;
+	margin-left: 152px;
+	margin-top: 50px;
+	clear: left;
+	float: left;
+	
+	
+}
+#signUpSaying{
+	font-family: "Tw Cen MT";
+	font-size: 20px;
+	letter-spacing: 1px;
+	width: 450px;
+	margin-left: 155px;
+	margin-bottom: -10px;
+	clear: left;
+
+}
+
+/******    Form     ***** */
+#aboutForm ul{
+	width: 365px; 
+	background-color: #6C8703;
+	margin-left: -2px;
+	padding-left: 45px;
+	padding-right: 30px;
+	padding-top: 45px;
+	padding-bottom: 50px;
+	clear: left;
+}
+
+#email input{
+	width: 350px; 
+	height: 40px;
+}
+
+li #password{
+	height: 40px;
+	clear: left;
+	float: left;
+}
+li #userPassword{
+	margin-top: 15px;
+}
+li #password{
+	width: 170px;
+}
+li #retypepassword{
+	clear: both;
+	float: left;
+	overflow: hidden;
+	margin-left: 180px;
+	margin-top: -55px;
+	height: 40px;
+	width: 170px;
+	color: #FFF;
+	font-family: "MS Reference Sans Serif";
+	
+	
+	
+}
+li #retypedpassword{
+	margin-left: 180px;
+	margin-top: -40px;
+	clear: both;
+	float: left;
+	height: 40px;
+	width: 170px;
+	
+}
+li #userAge{
+	clear: left;
+	float: left;
+	width: 75px;
+	margin-top: 25px;
+	
+		
+}
+/* zip and age */
+.loginform input[type=number]{
+	width: 60px;
+	height: 40px;
+	clear: left;
+	float: left;
+}
+/* sex */
+.loginform input[type=text]{
+	width: 60px;
+	height: 40px;
+	clear: left;
+}
+#age{
+	
+}
+#sex{
+	margin-left: 82px;
+	margin-top: -54px;
+	float: left;
+	clear: left;
+}
+#zip{
+	clear: left;
+	float: left;
+	margin-left: 162px;
+	margin-top: -54px;
+}
+#signUpBtn button img{
+	margin-left: 80px;
+	margin-top: -90px;
+	clear: left;
+	float: left;
+}
+
+#backBtn{
+	margin-top: 75px;
+	margin-left: 150px;
+	
+}
+#letsGetConnected{
+	font-family: "GoodDog Plain";
+	font-size: 18px;
+	letter-spacing: 3px;
+	margin-left: 245px;
+	margin-top: -30px;
+	float: left;
+	
+}
+#letterDog{
+	font-family: "can dog tfb";
+	font-size: 48px;
+	margin-left: 480px;
+	
+}
+#footerSignupPage{
+	margin-top: -10px;
+	padding-top: 30px;
+}
+
+
+
+/******************* Parks PAGE CSS STARTS HERE ****************************/
+
+
+#title{
+	clear: left;
+	float: left;
+	font-family: "GoodDog Plain";
+	font-size: 48px;
+	margin-left: 285px;
+	margin-top: -500px;
+	width: 200px;
+}
+#search{
+	width: 335px;
+	height: 35px;
+	margin-left: 170px;
+	margin-top: -460px;
+	float: left;
+	border: 3px solid #5edfff;
+}
+#searchBar img{
+	clear: left;
+	margin-left: 420px;
+	float: left;
+	margin-top: -462px;
+	height: 40px;
+	/* border: solid 1px red; */
+	
+}
+
+
+/* park contents from search query */
+#parkContent{
+	clear: left;
+	/* border: solid 1px black; */
+	float: left;
+	margin-top: -400px;
+	margin-bottom: 50px;
+}
+#parkname{
+	/* border: solid 1px white; */
+	/* margin-top: -200px; */
+	margin-bottom: 5px;
+	margin-left: 100px;
+	clear: left;
+	float: left;
+	/* font-family: "Arial Black"; */
+	font-family: "helvetica neue";
+	font-weight: 500;
+	font-size: 16px;
+	color: #000;
+	background-color: #058090;
+}
+#parkcontent #address{
+	clear: left;
+	/* margin-left: -50px; */
+	
+}
+#parkContent h3{
+	margin-left: 100px;
+	margin-bottom: 8px;
+	background-color: #058090;
+	color: #313030;
+	font-family: Calibri;
+	font-weight: bold;
+	font-size: 13px;
+
+	
+}
+#parkContent p {
+	/* border: solid 1px red; */
+	width: 500px;
+	margin-left: 100px;
+	margin-bottom: 25px;
+	background-color: #058090;
+	font-family: arial;
+	font-size: 14px;
+	color: #222;
+	letter-spacing: 0.5px;
+	line-height: 17px;
+}
+.parksName{
+	font-family: "Arial Black";
+	/* margin-top: 20px; */
+	clear: left;
+	margin-left: -1px;
+	font-size: 16px;
+	color: #000;
+	/* border: solid 1px black; */
+	
+	
+}
+accordion h3 a{
+	color: #058090;
+}
+#accordion{
+	/* border: solid 1px red; */
+	width: 100%;
+}
+.parksName{
+	color: #058090;
+	border: solid 1px black;
+	
+}
+.parksName span{
+	font-size: 11px;
+	color: #555
+}
+
+.parksName a{
+	color: #058090;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+.parksName a:hover{
+	color: #6c8703;
+}
+.parksAddress{
+	clear: left;
+	font-family: Calibri;
+	font-size: 8px;
+	color: #313030;
+	margin-top: 5px;
+}
+#clock{
+	/* border: solid 1px black; */
+	clear: left;
+	float: left;
+	margin-left: 280px;
+	margin-top: -20px;
+	
+
+	/* padding-left: 3px; */
+	/* padding-right: 6px; */
+	
+	
+}
+#dollars{
+	margin-left: 15px;
+	margin-bottom: -1px;
+	
+}
+
+.parksDescription{
+	clear: left;
+	font-family: Arial;
+	font-size: 12px;
+	letter-spacing: 1px;
+	line-height: 18px;
+	
+}
+#comingsoon{
+	clear: left;
+	/* float: left; */
+	margin-top: -250px;
+	margin-left: 210px;
+	float: left;
+	
+}
+
+#pagination{
+
+	font-family: "GoodDog Plain",arial;
+	font-size: 18px;
+	clear: left;
+	margin-left: 100px;
+	margin-bottom: 100px;
+	/* margin-top: -100px; */
+	
+}
+#pagination a{
+	text-decoration: none;
+	color: #FFF;
+}
+#pagination a:hover{
+	text-decoration: underline;
+	color: #b6df18;
+}
+#pagination a:active{
+	/* color: #FFF; */
+	text-decoration: underline;
+	color: #b6df18;
+}
+
+
+
+
+
+.anitem { 
+	display: none; 
+}
+
+
+
+/******************* MAP PAGE CSS STARTS HERE ****************************/
+
+/* Geolocation css for #map_canvas */
+#map_canvas {
+        height: 85%;
+        width: 100%;
+    }
+
+
+#largerMap{
+	position: left;
+	color: #0000FF;
+	/* border: solid 1px red; */
+	
+}
+#largerMap a{
+	text-decoration: none;
+	font-family: "MS Reference Sans Serif";
+	font-size: 12px;
+	/* letter-spacing: 2px; */
+	color: #FFF;
+	
+}
+#largerMap a:hover{
+	color: #b6df18;
+}
+
+
+
+
+
+
+/******************* Add Parks PAGE CSS STARTS HERE ****************************/
+.addParkForm input[type=text]{
+	width: 350px;
+	height: 40px;
+	font-size: 12px;
+	
+}
+
+#addParkForm ul{
+	background-color: #6C8703;
+	clear: both;
+	overflow: hidden;
+	padding: 40px;
+	float: left;
+ 
+}
+
+
+#formAddParkTitle{
+	clear: left;
+	float: left;
+	font-family: "GoodDog Plain";
+	font-size: 48px;
+	margin-left: 152px;
+	margin-bottom: -15px;
+	
+}
+
+#nameOfPark{
+	width: 150px;
+	font-size: 12px;
+	margin-top: -5px;
+}
+#parkAddress{
+	margin-top: 25px;
+	font-size: 12px;
+	
+}
+#parkZip{
+	clear: left;
+	float: left;
+	margin-top: 24px;
+	width: 60px;
+	font-size: 12px;
+}
+#parkFee{
+	clear: left;
+	
+	width: 60px;
+	float: left;
+	margin-left: 82px;
+	margin-top: -55px;
+	font-size: 12px;
+}
+#fencedIn{
+	clear: left;
+	float: left;
+	width: 60px;
+	margin-left: 162px;
+	margin-top: -55px;
+	font-size: 12px;
+}
+#parkHours{
+	clear: left;
+	float: left;
+	width: 100px;
+	margin-left: 242px;
+	margin-top: -55px;
+	font-size: 12px;
+	
+}
+.addParkForm input[id=inputZip]{
+	width: 65px;
+	height: 40px;
+}
+#inputParkZip{
+	/* border: solid 1px red; */
+	width: 67px;
+	height: 40px;
+}
+#inputParkFee{
+	
+	width: 67px;
+	height: 40px;
+}
+#inputFencedIn{
+	width: 67px;
+	height: 40px;
+
+}
+#inputHours{
+	width: 108px;
+	height: 40px;
+}
+.addParkForm input[id=inputFee]{
+	width: 60px;
+	height: 40px;
+}
+.addParkForm{
+	clear:left;
+	float: left;
+	margin-bottom: 100px;
+	/* margin-top: 50px; */
+}
+
+
+ /* Checkboxes */
+ 
+.addParkForm input[type=checkbox]{
+	clear: left;
+	
+}
+
+
+#parkBathrooms{
+	clear: left;
+	float: left;
+	margin-top: 20px;
+	
+}
+#inputBathrooms{
+	clear: left;
+	float: left;
+	margin-left: 68px;
+	margin-top: -15px;
+	
+}
+#parkBenches{
+	clear: left;
+	float: left;
+	margin-left: 100px;
+	margin-top: -15px;
+}
+#inputParkBenches{
+	clear: left;
+	float: left;
+	margin-left: 83px;
+	margin-top: -15px;
+}
+#parkWaterBowls{
+	clear: left;
+	float: left;
+	margin-left: 214px;
+	margin-top: -15px;
+}
+#inputWaterBowls{
+	clear: left;
+	float: left;
+	margin-left: 77px;
+	margin-top: -15px;
+}
+#parkPond{
+	clear: left;
+	float: left;
+	margin-top: 15px;
+}
+#inputParkPond{
+	clear: left;
+	float: left;
+	margin-left: 31px;
+	margin-top: -15px;
+}
+#parkBagDispensers{
+	clear: left;
+	float: left;
+	margin-left: 60px;
+	margin-top: -15px;
+}
+#inputBagDispensers{
+	clear: left;
+	float: left;
+	margin-left:  95px;
+	margin-top: -15px;
+}
+#parkHandicaped{
+	clear: left;
+	float: left;
+	margin-left: 184px;
+	margin-top: -15px;
+}
+#inputHandicaped{
+	clear: left;
+	float: left;
+	margin-left: 72px;
+	margin-top: -15px;
+}
+#parkDogShowers{
+	clear: left;
+	float: left;
+	margin-top: 15px;
+}
+#inputDogShowers{
+	clear: left;
+	float: left;
+	margin-left: 82px;
+	margin-top: -15px;
+}
+#parkBulletinBoard{
+	clear: left;
+	float: left;
+	margin-left: 110px;
+	margin-top: -15px;
+}
+#inputBulletinBoard{
+	clear: left;
+	float: left;
+	margin-left: 87px;
+	margin-top: -15px;
+}
+#parkAddToFavorites{
+	clear: left;
+	float: left;
+	margin-left: 225px;
+	margin-top: -15px;
+}
+#inputAddToFavorites{
+	clear: left;
+	float: left;
+	margin-left: 105px;
+	margin-top: -15px;
+	width: 15px;
+}
+
+.checkBoxesAndTitles{
+	/* border: solid 1px red; */
+	font-size: 12px;
+	clear: left;
+	
+}
+
+#addBtn{
+	clear: both;
+	float: right;
+	margin-top: 10px;
+	padding: 0;
+	width: 80px;
+
+}
+#yayNewPark{
+	clear: left;
+	float: left;
+	font-family: "GoodDog Plain";
+	letter-spacing: 2px;
+	font-size: 24px;
+	margin-left: 200px;
+	/* margin-bottom: 20px; */
+	margin-top: -50px;
+	
+}
+
+
+
+
+
+
+
+
+/******************* About PAGE CSS STARTS HERE ****************************/
+
+
+#aboutContent{
+	clear:left;
+	float: left;
+	margin-bottom: 30px;
+	
+	
+}
+#aboutContent p{
+	background-color: #ccc;
+	padding: 5px;
+	
+}
+.aboutContent{
+	clear: left;
+	float: left;
+	width: 270px;
+	/* font-family: "Tin Doghouse"; */
+	font-family: "MS Reference Sans Serif",arial,helvetica;
+	font-size: 14px;
+	letter-spacing: 1px;
+	line-height: 22px;
+	margin-left: 100px;
+	margin-bottom: 20px;
+	margin-right: 30px;
+	overflow: hidden;
+	
+	
+	
+}
+	
+aside{
+	margin-top: -3px;
+	margin-left: 400px;
+	
+}	
+aside h1{
+	font-family: "MS Reference Sans Serif";
+	font-size: 16px;
+	margin-left: 10px;
+	
+	
+}
+aside h1 span{
+	font-family: "MS Reference Sans Serif";
+	font-size: 10px;
+}	
+
+#aboutbackBtn{
+	clear: left;
+	float: left;
+	margin-left: 100px;
+	margin-top: -50px;
+	
+	
+}
