@@ -1,5 +1,4 @@
 
-<!-- This code is not reconizing itself! -->
 
 <h1 id="logo">
 				<?= Html::anchor('/', Asset::img('unLeashedLogoWhite2.png', array('width'=>'133', 'height'=>'81.5'))) ?>
